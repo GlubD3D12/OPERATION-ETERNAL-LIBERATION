@@ -5,7 +5,7 @@
 FROM rust:1-bookworm AS builder
 
 ARG RPCN_REPO=https://github.com/RipleyTom/rpcn.git
-ARG RPCN_COMMIT=871332d2e
+ARG RPCN_COMMIT=6ada8fe0b
 
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
